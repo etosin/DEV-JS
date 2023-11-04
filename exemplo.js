@@ -16,12 +16,12 @@ let newPessoa = new Pessoa();
 
 console.log(newPessoa.nome); */
 
-let varIdade = 33.
+//let varIdade = 33.
 
 /*let varTexto = (varIdade >= 18) ? "Maior de idade" : "Menor de idade";
 console.log(varTexto); */
 
-const arrowFunction = (n1, n2) => { 
+/*const arrowFunction = (n1, n2) => { 
 
    if(n1 == undefined){
     n1 = 0
@@ -34,4 +34,10 @@ const arrowFunction = (n1, n2) => {
    return n1 + n2;
 }
 
-console.log( arrowFunction(2) );
+console.log( arrowFunction(2) );*/
+
+let array = new Array( "1", "2", "3", "4");
+
+let myVariale = array[1];
+
+console.log(array[0]);
