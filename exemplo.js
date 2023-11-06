@@ -43,7 +43,7 @@ for (let i = 0; i < array.length; i++) {
     console.log(`${i}: O valor do campo é ${array[i]}`);
 }*/
 
-let objectNome = new Array;
+let objectNome = new Array();
 
 function Pessoa(nome, incremento, sexo) {
     this.nome = nome,
@@ -57,4 +57,9 @@ for (let i = 0; i < 5; i++) {
     objectNome.push(newPessoa)
 }
 
-console.log(objectNome);
+for (let i = 0; i < objectNome.length; i++) {
+    
+    console.log(`${objectNome[i].nome} tem ${objectNome[i].idade} anos`)
+}
+
+//console.log(objectNome[0].nome);
