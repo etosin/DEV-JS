@@ -36,17 +36,25 @@ console.log(varTexto); */
 
 console.log( arrowFunction(2) );*/
 
-var array = new Array( "1", "2", "3", "4");
-array.push ("5","6");
+/*var array = new Array("1", "2", "3", "4");
+array.push("5", "6");
 
-console.log( array.toString() );
+for (let i = 0; i < array.length; i++) {
+    console.log(`${i}: O valor do campo é ${array[i]}`);
+}*/
 
-//let myVariale = array[1];
+let objectNome = new Array;
 
-//console.log(array[0]);
+function Pessoa(nome, incremento, sexo) {
+    this.nome = nome,
+        this.idade = 40 + incremento,
+        this.sexo = sexo
+}
 
-/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+for (let i = 0; i < 5; i++) {
 
-fruits.push("Kiwi");
+    let newPessoa = new Pessoa("Pessoa " + i, i, "Masculino");
+    objectNome.push(newPessoa)
+}
 
-console.log( fruits.toString() ); */
+console.log(objectNome);
