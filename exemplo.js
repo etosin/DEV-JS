@@ -36,8 +36,17 @@ console.log(varTexto); */
 
 console.log( arrowFunction(2) );*/
 
-let array = new Array( "1", "2", "3", "4");
+var array = new Array( "1", "2", "3", "4");
+array.push ("5","6");
 
-let myVariale = array[1];
+console.log( array.toString() );
 
-console.log(array[0]);
+//let myVariale = array[1];
+
+//console.log(array[0]);
+
+/*const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+fruits.push("Kiwi");
+
+console.log( fruits.toString() ); */
